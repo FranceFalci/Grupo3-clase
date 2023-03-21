@@ -1,0 +1,14 @@
+.banners {
+    width: 23rem;
+    overflow: hidden;
+}
+
+.banners img {
+    width: 100%;
+    transition: 2s;
+    transform: scale(1);
+}
+
+.banners img:hover {
+    transform: scale(1.1);
+}
