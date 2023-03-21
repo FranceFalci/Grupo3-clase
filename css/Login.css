@@ -1,0 +1,199 @@
+* {
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .MaindeTdos{
+    background-color: #f1f1f1;
+    height: 100vh;
+  }
+
+  .bodyLogin {
+    background-color: #f1f1f1;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .ContenedorDelLogoLogin {
+    height: 6vh;
+    background-color: #f63535;
+    padding-top: 21.7px;
+    padding-left: 16px;
+  }
+  
+  .FigureDelContenedorDelLogoLogin {
+    width: 40px;
+  }
+  
+  .FigureDelContenedorDelLogoLogin img {
+    width: 100%;
+  }
+  
+  .FormFormLogin {
+    background-color: #f1f1f1;
+  }
+  
+  .formlogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#f1f1f1;
+  }
+  
+  .formlogin form .datosFormLogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#ffffff;
+    border-radius: 2%;
+    border: 0.1em solid #badbff;
+    /* width: 22em; */
+    /*  width: 40vw; */
+  }
+  
+  .formlogin legend {
+    color:rgb(128, 128, 128);
+    font-size: 1.9em;   
+  }
+  
+  .datosFormLogin input {
+    width: 18em;
+    height: 2.6em;
+    border-style: none;
+    border-bottom: solid 0.1em #ffffff;
+    margin: 0.6em;
+    padding: 1em;
+    font-size: 1em;
+    background-color: #f1f1f1;
+    color: rgb(128, 128, 128);
+  }
+  
+  .FormFormLogin input:valid {
+    border-bottom: 0.1em solid #badbff;
+  }
+  
+  .datosFormLogin input[type="checkbox"] {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .datosFormLogin .botonFormLogin {
+    color: rgb(128, 128, 128);
+    border: solid 0.1em #badbff;
+    background-color: #ffffff;
+    border-radius: 0.4em;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 1.1em;
+    width: 17em;
+    height: 2.7em;
+  }
+  
+  .datosFormLogin .botonFormLogin:hover,
+  .datosFormLogin .botonFormLogin:focus,
+  .Modal1LoginFooter .botonFormLogin:hover,
+  .Modal1LoginFooter .botonFormLogin:focus {
+    transform: scale(1.02);
+  }
+  
+  .ArticleDebajoBoton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20em;
+    font-size: 0.9em;
+  }
+  
+  .TextColorBlanco {
+    color: rgb(128, 128, 128);
+  }
+  
+  .linksCreados {
+    color: rgb(128, 128, 128);
+    text-decoration: none;
+  }
+  
+  .linksCreados:hover,
+  .linksCreados:focus {
+    color: #badbff;
+    text-decoration: underline;
+  }
+  
+  .modal-body {
+    text-align: center;
+  }
+  
+  .modal-body input {
+    border-style: none;
+    border-bottom: solid 0.1em #ffffff;
+    margin: 0.6em;
+    padding: 1em;
+    font-size: 1em;
+    background-color: #f1f1f1;
+    color: rgb(128, 128, 128);
+  }
+  
+  .modal-body input:valid {
+    border-bottom: solid 0.1em #6bf4e2;
+  }
+  
+  .Modal1Login {
+    background-color:#f1f1f1;
+    color: rgb(128, 128, 128);
+  }
+  
+  .Modal1Login h1 {
+    color:rgb(128, 128, 128);
+    font-size: 1.6em;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+  }
+  
+  .Modal1LoginFooter {
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: calc(var(--bs-modal-padding) - var(--bs-modal-footer-gap) * 0.5);
+    border-top: #323c56 1px solid;
+    border-bottom-right-radius: var(--bs-modal-inner-border-radius) #121f3d;
+    border-bottom-left-radius: var(--bs-modal-inner-border-radius);
+  }
+  
+  .CabeceraModal {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-modal-header-padding);
+    border-bottom: #323c56 1px solid;
+    border-top-left-radius: var(--bs-modal-inner-border-radius);
+    border-top-right-radius: var(--bs-modal-inner-border-radius);
+  }
+  
+  .Modal1LoginFooter .botonFormLogin {
+    color: #1b2c53;
+    border: solid 0.1em #badbff;
+    background-color: #f1f1f1;
+    border-radius: 0.4em;
+    text-align: center;
+    margin: 0.3em;
+    font-size: 1.1em;
+    width: 5em;
+    height: 2em;
+  }
+  
+  .Modal1Login form {
+    background-color: #f1f1f1;
+  }
+  
+  @media all and (min-width: 760px) {
+    .FigureDelContenedorDelLogoLogin {
+      width: 70px;
+    }
+  }
+  
