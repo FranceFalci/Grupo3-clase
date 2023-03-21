@@ -17,5 +17,12 @@
 #productos .card .btn{
  background-color: #a6c7e8;
  border: 2px solid #85b7e9;
+ transition: all .5s ease;
  
 }
+
+#productos .card .btn:hover{
+     background-color: #71afed;
+ border: 2px solid #85b7e9;
+}
+
