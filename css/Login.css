@@ -133,7 +133,7 @@
     padding: 1em;
     font-size: 1em;
     background-color: #f1f1f1;
-    color: white;
+    color: rgb(128, 128, 128);
   }
   
   .modal-body input:valid {
@@ -142,7 +142,7 @@
   
   .Modal1Login {
     background-color:#f1f1f1;
-    color: white;
+    color: rgb(128, 128, 128);
   }
   
   .Modal1Login h1 {
@@ -177,7 +177,7 @@
   
   .Modal1LoginFooter .botonFormLogin {
     color: #1b2c53;
-    border: solid 0.1em #6bf4e2;
+    border: solid 0.1em #badbff;
     background-color: #f1f1f1;
     border-radius: 0.4em;
     text-align: center;
