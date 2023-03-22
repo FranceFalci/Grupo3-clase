@@ -38,3 +38,17 @@ footer .imagen_redes{
     transition: transform 0.2s ease-in-out;
 }
 
+#productosIndex .card{
+    margin-bottom:20px ;
+
+}
+
+#productosIndex .card-body{
+    text-align: center;
+}
+
+#productosIndex .card-body a{
+    background-color: #a6c7e8;
+    border: 2px solid #85b7e9;
+     width: 5rem;
+}
