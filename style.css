@@ -1,0 +1,40 @@
+footer{ 
+    background-color: #f3ceb9;  
+}
+
+.imagen_logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.list-unstyled a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+.list-unstyled li:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+footer .imagen_redes{
+    width: 50px;
+}
+
+.imagen_redes {
+    margin-right: 2px;
+    display: block;
+    margin: 5 auto;
+}
+
+.animated {
+    color: #fff;
+    text-decoration: none;
+}
+
+.animated:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
