@@ -5,13 +5,27 @@
   }
   
   .MaindeTdos{
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     height: 100vh;
   }
 
   .bodyLogin {
     background-color: #f1f1f1;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .imagenDeBebeLogin{
+    width: 40vw;
+    height: 70vh;
+  }
+
+  .imagenDeBebeLogin{
+    display: none;
+  }
+
+  .imagenDeBebeLogin img{
+    width: 100%;
+    height: 100%;
   }
   
   .ContenedorDelLogoLogin {
@@ -30,7 +44,7 @@
   }
   
   .FormFormLogin {
-    background-color: #f1f1f1;
+    background-color: #ffffff;
   }
   
   .formlogin {
@@ -38,7 +52,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:#f1f1f1;
+    background-color:#ffffff;
   }
   
   .formlogin form .datosFormLogin {
@@ -48,7 +62,7 @@
     align-items: center;
     background-color:#ffffff;
     border-radius: 2%;
-    border: 0.1em solid #badbff;
+    border: 0.01em solid #badbff;
     /* width: 22em; */
     /*  width: 40vw; */
   }
@@ -62,16 +76,16 @@
     width: 18em;
     height: 2.6em;
     border-style: none;
-    border-bottom: solid 0.1em #ffffff;
+    border-bottom: solid 0.1em #a6c7e8;
     margin: 0.6em;
     padding: 1em;
     font-size: 1em;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     color: rgb(128, 128, 128);
   }
   
   .FormFormLogin input:valid {
-    border-bottom: 0.1em solid #badbff;
+    border-bottom: 0.1em solid #a6c7e8;
   }
   
   .datosFormLogin input[type="checkbox"] {
@@ -81,7 +95,7 @@
   
   .datosFormLogin .botonFormLogin {
     color: rgb(128, 128, 128);
-    border: solid 0.1em #badbff;
+    border: solid 0.1em #a6c7e8;
     background-color: #ffffff;
     border-radius: 0.4em;
     text-align: center;
@@ -118,7 +132,7 @@
   
   .linksCreados:hover,
   .linksCreados:focus {
-    color: #badbff;
+    color: #a6c7e8;
     text-decoration: underline;
   }
   
@@ -132,16 +146,16 @@
     margin: 0.6em;
     padding: 1em;
     font-size: 1em;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
     color: rgb(128, 128, 128);
   }
   
   .modal-body input:valid {
-    border-bottom: solid 0.1em #6bf4e2;
+    border-bottom: solid 0.1em #a6c7e8;
   }
   
   .Modal1Login {
-    background-color:#f1f1f1;
+    background-color:#ffffff;
     color: rgb(128, 128, 128);
   }
   
@@ -177,8 +191,8 @@
   
   .Modal1LoginFooter .botonFormLogin {
     color: #1b2c53;
-    border: solid 0.1em #badbff;
-    background-color: #f1f1f1;
+    border: solid 0.1em #a6c7e8;
+    background-color: #ffffff;
     border-radius: 0.4em;
     text-align: center;
     margin: 0.3em;
@@ -188,12 +202,16 @@
   }
   
   .Modal1Login form {
-    background-color: #f1f1f1;
+    background-color: #ffffff;
   }
   
   @media all and (min-width: 760px) {
     .FigureDelContenedorDelLogoLogin {
       width: 70px;
+    }
+
+    .imagenDeBebeLogin{
+      display: block;
     }
   }
   

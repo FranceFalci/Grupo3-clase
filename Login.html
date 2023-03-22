@@ -43,43 +43,47 @@
             </div>
         </div>
     </nav>
-    <main class="MaindeTdos">
-    
-        <section class="formlogin ">
-            <form action="./error404.html"   class="FormFormLogin mt-5">
-                <fieldset class="datosFormLogin   mb-5 pt-5 pb-5  pe-sm-5 ps-sm-5 ">
-                    <legend class="ps-4"><strong> Inicia Sesión </strong></legend>
-                    
-                    <label for="mail">
-                        <input type="email" name="correoElectronico" id="mail" placeholder="Dirección de Correo Electronico" required pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" title="Ingrese su correo" maxlength="76">
-                    </label>
-                    <label for="cont">
-                        <input type="password" name="contraseña" id="cont" placeholder="Contraseña" required pattern="[A-Za-z0-9!?-]{8,12}" title="Ingrese su contraseña" maxlength="12" minlength = "8">
-                    </label>
-                    <a href="Error404.html" target="_blank">
-                    <input type="submit" value="Iniciar Sesión" class="botonFormLogin mt-5 mb-2  ">
-                    </a>
-                    <article class="ArticleDebajoBoton">
-                        <label for="check" class="TextColorBlanco"> 
-                            <input type="checkbox" name="checkbox" id="check" class="m-0">
-                            Recordarme
-                        </label>
-                        <a href="Link que abrira el modal de recurer cuenta" class="linksCreados" data-bs-toggle="modal" data-bs-target="#ModalDeRecuperarCuenta">¿Necesitas Ayuda?</a>                        
-                    </article>
-
-                
-                    
-                    <article class="pt-5">
-                        <p class="TextColorBlanco text-center">¿No posee una cuenta en nuestro sitio? <br>
-                            <a href="../html/suscripcion.html" class="linksCreados" ><strong> Suscribase ahora </strong></a></p>
-                    </article>
-                    
-                </fieldset>
 
 
-                
-            </form>
+
+    <main class="MaindeTdos">    
+        <section class="d-flex flex-row justify-content-center align-items-center">
+
             
+
+            <section class="formlogin ">
+                <form action="./error404.html"   class="FormFormLogin mt-5">
+                    <fieldset class="datosFormLogin   mb-5 pt-5 pb-5  pe-sm-5 ps-sm-5 ">
+                        <legend class="ps-4"><strong> Inicia Sesión </strong></legend>
+                        <label for="mail">
+                            <input type="email" name="correoElectronico" id="mail" placeholder="Dirección de Correo Electronico" required pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" title="Ingrese su correo" maxlength="76">
+                        </label>
+                        <label for="cont">
+                            <input type="password" name="contraseña" id="cont" placeholder="Contraseña" required pattern="[A-Za-z0-9!?-]{8,12}" title="Ingrese su contraseña" maxlength="12" minlength = "8">
+                        </label>
+                        <a href="Error404.html" target="_blank">
+                        <input type="submit" value="Iniciar Sesión" class="botonFormLogin mt-5 mb-2  ">
+                        </a>
+                        <article class="ArticleDebajoBoton">
+                            <label for="check" class="TextColorBlanco"> 
+                                <input type="checkbox" name="checkbox" id="check" class="m-0">
+                                Recordarme
+                            </label>
+                            <a href="Link que abrira el modal de recurer cuenta" class="linksCreados" data-bs-toggle="modal" data-bs-target="#ModalDeRecuperarCuenta">¿Necesitas Ayuda?</a>                        
+                        </article>               
+                        <article class="pt-5">
+                            <p class="TextColorBlanco text-center">¿No posee una cuenta en nuestro sitio? <br>
+                                <a href="../html/suscripcion.html" class="linksCreados" ><strong> Suscribase ahora </strong></a></p>
+                        </article>                    
+                    </fieldset>                
+                </form>            
+            </section>
+
+            <section class="imagenDeBebeLogin .d-md-block">
+                <figure>
+                    <img src="../Grupo3-clase/img/rastreo-alegre-baby-boy-aislado-sobre-fondo-blanco-df5d28.jpg">
+                </figure>
+            </section>
         </section>
     </main>
 
