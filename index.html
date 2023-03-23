@@ -1,23 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./categorias.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>MyBaby</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+                crossorigin="anonymous">
+
 
 </head>
+
 <body>
 
-       
+
+        <nav class="navbar navbar-expand-lg " style="background-color:#f3ceb9  ;">
+                <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img src="./img/LogoMyBaby.svg" width="250px" alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page"
+                                                        href="index.html">Inicio</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" href="productos.html">Productos</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" href="error404.html">Galeria</a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" href="contactos.html">Contacto</a>
+                                        </li>
+
+                                </ul>
+                                <nav class="navbar  " style="background-color:#f3ceb9  ; ">
+                                        <form class="container-fluid">
+                                                <button class="btn btn-outline-primary" type="submit"><a
+                                                                href="Login.html" class=" text-decoration-none">Iniciar
+                                                                Sesion</a></button>
+                                        </form>
+                                </nav>
+                        </div>
+                </div>
+        </nav>
+
+
+        <!-- Carrusell-->
+        <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                        <div class="carousel-item active">
+                                <img src="./ImgCarrusel/1.png" class="d-block w-100"
+                                        alt="Imagen en carrusel ropa de bebe nene">
+                        </div>
+                        <div class="carousel-item">
+                                <img src="./ImgCarrusel/2.png" class="d-block w-100"
+                                        alt="Imagen en carrusel ropa de bebe nena">
+                        </div>
+                        <div class="carousel-item">
+                                <img src="./ImgCarrusel/3.png" class="d-block w-100"
+                                        alt="Imagen en carrusel ropa de bebe Novedades">
+                        </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                </button>
+        </div>
+        <!--Fin Carrusell-->
+
+        <!-- ACA COMIENZA "CATEGORIAS" -->
+
+        <div class="container-fluid mt-3">
+                <div class="d-flex justify-content-around flex-wrap">
+                        <div class="banners m-3">
+                                <img src="./imgCategorias/remeras.jpg" alt="">
+                        </div>
+
+                        <div class="banners m-3">
+                                <img src="./imgCategorias/vestidos.jpg" alt="">
+                        </div>
+
+                        <div class="banners m-3">
+                                <img src="./imgCategorias/pantalones.jpg" alt="">
+                        </div>
+                </div>
+        </div>
+
+        <!-- ESTO ES EL FIX DE CATEGORIAS -->
+        <div class="container-fluid">
+                <img src="./imgFixCategorias/RollingAlgoSm.jpg" class="img-fluid d-block d-sm-none"
+                        alt="Banner: Algodón Orgánico">
+                <img src="./imgFixCategorias/RollingAlgo-01.jpg" class="img-fluid d-none d-sm-block"
+                        alt="Banner: Algodón Orgánico">
+        </div>
+        <!-- FIN FIX CATEGORIAS -->
+
+        <!-- Cards productos index-->
+        <div class="d-flex justify-content-around flex-wrap my-5" id="productosIndex">
+
+
+                <div class="card" style="width: 18rem;">
+                        <img src="./imgProductosIndex/buzo-koala.jpg" class="card-img-top" alt="Buzos y remeras">
+                        <div class="card-body">
+                                <h5 class="card-title">Buzo Koala</h5>
+                                <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                </div>
+
+
+                <div class="card" style="width: 18rem;">
+                        <img src="./imgProductosIndex/jogger-verde.jpg" class="card-img-top" alt="Pantalones y Shorts">
+                        <div class="card-body">
+                                <h5 class="card-title">Jogger Verde</h5>
+                                <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                </div>
+
+
+                <div class="card" style="width: 18rem;">
+                        <img src="./imgProductosIndex/vestido-olivia.jpg" class="card-img-top"
+                                alt="Vestidos y Polleras">
+                        <div class="card-body">
+                                <h5 class="card-title">Vestido Olivia</h5>
+                                <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                        <img src="imgProductos/buzo-rose.jpg" class="card-img-top" alt="Vestidos y Polleras">
+                        <div class="card-body">
+                                <h5 class="card-title">Buzo Rose</h5>
+                                <a href="#" class="btn btn-primary">Ver</a>
+                        </div>
+                </div>
+
+
+        </div>
+
+
+        <footer class="container-fluid bg-light-blue text-light">
+                <div class="row ">
+                        <div class="col-lg-4 col-md-6 col d-flex justify-content-center align-items-center p-4">
+                                <a href="#"
+                                        class="nombre-logo imagen_logo img-fluid d-flex flex-column align-items-center animated"><img
+                                                class="imagen_logo" src="img-footer/LogoMyBaby.svg" alt="logo del sitio"
+                                                style="padding-top: 20px;"></a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 text-center">
+                                <h5 style="padding-top: 40px;">Información</h5>
+                                <ul class="list-unstyled text-light">
+                                        <li><a href="#">Inicio</a></li>
+                                        <li><a href="#">indumentaria</a></li>
+                                        <li><a href="#">locales</a></li>
+                                        <li><a href="#">Sobre nosotros</a></li>
+                                        <li><a href="#">Política de privacidad</a></li>
+                                        <li><a href="#">Términos y condiciones</a></li>
+                                </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-12 text-center" style="padding-top: 50px;">
+                                <h5>Redes Sociales</h5>
+                                <ul class="container-fluid d-flex justify-content-center gap-5 p-2">
+
+                                        <li class="d-flex justify-content-center animated"><a href="#"><img
+                                                                class="imagen_redes" src="img-footer/facebook.png"
+                                                                alt="enlace a facebook"></a></li>
+                                        <li class="d-flex justify-content-center animated"><a href="#"><img
+                                                                class="imagen_redes" src="img-footer/instagram.png"
+                                                                alt="enlace a instagram"></a></li>
+                                        <li class="d-flex justify-content-center animated"><a href="#"><img
+                                                                class="imagen_redes" src="img-footer/twitter.png"
+                                                                alt="enlace a twitter"></a></li>
+                                        <li class="d-flex justify-content-center animated"><a href="#"><img
+                                                                class="imagen_redes" src="img-footer/youtube.png"
+                                                                alt="enlace a youtube"></a></li>
+                                </ul>
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="col-12 text-center">
+                                <p style="padding-top: 20px;">© Grupo 3. Todos los derechos reservados.</p>
+                        </div>
+                </div>
+        </footer>
+
+
         
-            
-        
+           
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+                integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+                crossorigin="anonymous"></script>
 
 </body>
+
 </html>
